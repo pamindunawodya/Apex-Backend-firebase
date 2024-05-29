@@ -1,0 +1,4 @@
+# Project exclude paths
+/node_modules/
+/apex-464b5-firebase-adminsdk-sm379-105cd4e6c5.json/
+/firebase.ts/
