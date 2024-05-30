@@ -1,9 +1,8 @@
 import db from './firebase';
 
-interface UserData {
-    name: string;
-    email: string;
-    age: number;
+ interface UserData {
+    contactNo:string;
+    name:string;
 }
 
 export async function addData(collectionName: string, documentId: string, data: UserData): Promise<void> {
